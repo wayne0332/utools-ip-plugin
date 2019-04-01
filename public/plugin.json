@@ -1,0 +1,22 @@
+{
+  "pluginName": "ip",
+  "version": "0.0.1",
+  "description": "显示本机IP",
+  "author": "jiangsheng.ljs",
+  "main": "index.html",
+  "preload": "preload.js",
+  "logo": "logo.png",
+  "pluginSetting": {
+    "single": true,
+    "height": 1
+  },
+  "features": [
+    {
+      "code": "ip",
+      "explain": "显示本机IP",
+      "cmds": [
+        "ip"
+      ]
+    }
+  ]
+}
